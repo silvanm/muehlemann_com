@@ -1,0 +1,231 @@
+{
+  "intro": {
+    "caption": "<a href='https://www.facebook.com/silvan.muehlemann'><img src='/static/images/avatar.png' style='float:left;width:75px;shape-outside: circle();margin: 4px 24px 0 5px;'></a> Learning about new technologies is important for me and for my job as CTO of <a href='http://www.muehlemann-popp.ch'>Mühlemann & Popp</a>. So one of my favourite activities (besides playing <a href='https://www.facebook.com/photo.php?fbid=10154925694480719&set=pb.576250718.-2207520000.1512160695.&type=3&theater'>strategy games</a> with my kids and making <a href='https://www.strava.com/activities/1231186898'>long open water swims</a>) is to complete small tech projects. Even better if they are useful."
+  },
+  "sunday-afternoon": {
+    "title": "Diving into 3D modelling",
+    "image": "/static/images/sunday-afternoon.jpg",
+    "url": "https://www.artstation.com/artwork/KO4w2W",
+    "caption": "An unspectacular cell phone picture of our dining table on a Sunday afternoon? - No. It is a computer generated image. Created in about 10 hours of work using Blender 3D software. My new geek hobby. It combines my interests graphics, physics, art, (no-code) programming.... and in this case Cola Zero. ",
+    "date": "2022-04-03"
+  },
+  "open-water-swims": {
+    "title": "Combine swimming with travelling",
+    "image": "/static/images/open-water-swims.jpg",
+    "url": "https://open-water-swims.com",
+    "caption": "A tradition in our family is to combine family trips with my swimming events. So in the past years this has been the case in <a href='https://www.facebook.com/silvan.muehlemann/posts/10155866401085719' target='_blank'>Benidorm</a>, <a href='https://www.facebook.com/silvan.muehlemann/posts/10157598113830719' target='_blank'>Hamburg</a> or <a href='https://www.facebook.com/silvan.muehlemann/posts/10158787080340719' target='_blank'>Vienna</a>.<br>To make planning easier, I built myself an app that shows all European open water swimming events on a map. With calculation of travel times. <br>Now we are ready for summer vacation planning 2021! \n(And of course I hope that other swimmers can benefit from it as well)",
+    "date": "2021-01-01",
+    "github": "https://gitlab.com/silvan.muehlemann/owswims"
+  },
+  "vornamen": {
+    "title": "How hip is your name?",
+    "image": "/static/images/vornamen.png",
+    "url": "https://vornamen.muehlemann.com",
+    "caption": "My daughter loves it to spend hours on browsing through lists of first names and creating charts from them. To make her (and me \uD83D\uDE09) happy, I built her a first name explorer app.",
+    "date": "2020-09-20"
+  },
+  "greifenseeschwimmen-visualizer": {
+    "title": "Replay a swimming competition",
+    "video": "/static/images/greifenseeschwimmen",
+    "url": "https://greifenseeschwimmen.muehlemann.com/?bib=Silvan",
+    "caption": "Combining my passion for swimming, graphics and moving dots: I used the tracking data from <a href='https://greifenseeschwimmen.ch'>the last competition I participated in</a> and used it to build a player. Now the athletes can relive the event - and see if they have their <a href=https://en.wikipedia.org/wiki/Negative_split>negative split</a>.",
+    "date": "2020-08-29",
+    "github": "https://github.com/silvanm/greifenseeschwimmen-visualizer"
+  },
+  "epidemy-experiments": {
+    "title": "Picture the spread of a virus",
+    "video": "/static/images/epidemy-experiments",
+    "url": "https://epidemy-experiments.muehlemann.com/",
+    "caption": "Tough times in the world. It also has its fascinating sides for data and visualization geeks like me: Inspired by an article in the Washington Post, I created that app simulating the spread of a virus - and how to slow it down.",
+    "date": "2020-04-05",
+    "github": "https://github.com/silvanm/epidemy-experiments"
+  },
+  "entrancescreen": {
+    "title": "An info-screen with face recognition",
+    "image": "/static/images/entrancescreen.png",
+    "url": "https://github.com/silvanm/entrancescreen",
+    "caption": "Combining an evaluation of Flutter, Google ML Kit, Azure Face Recognition with a useful gadget for our house: An app that tells me everything I need to know before I leave the house. And it recognizes who is entering the house.",
+    "date": "2020-02-02",
+    "github": "https://github.com/silvanm/entrancescreen"
+  },
+  "instaxmaslights": {
+    "title": "Instagram-driven Christmas-decoration",
+    "video": "/static/images/insta-xmasleds",
+    "url": "http://xmaslights.muehlemann.com/",
+    "caption": "It's christmas time and every home owner decorates his house with nervously blinking christmas trees, grazing LED reindeers standing in frontyards and Laser effects in rainbow colors. I am also one of them. But I wanted to add a pinch of IoT and scoop of art to my installation. So my LEDs are Instagram driven: It pulls images with the hashtag #christmas from Instagram and uses them to light up the RGB-LEDs.",
+    "date": "2019-12-27",
+    "github": "https://github.com/silvanm/insta-xmasleds"
+  },
+  "meetingroombot": {
+    "title": "More discipline for your meetingroom",
+    "url": "https://gitlab.com/silvan.muehlemann/meetingroom-watcher/blob/master/Readme.md",
+    "image": "/static/images/meetingroom_watcher.jpg",
+    "caption": "Unused or messy meeting rooms are a thing of the past in our company. Because I built Meeting Room Watcher which uses AI to prevent bad behavior.",
+    "date": "2019-10-06",
+    "github": "https://gitlab.com/silvan.muehlemann/meetingroom-watcher"
+  },
+  "opendoor-detector": {
+    "title": "Mit Kanonen auf Spatzen schiessen...",
+    "image": "/static/images/opendoor-detector.jpg",
+    "url": "https://www.facebook.com/silvan.muehlemann/videos/10157299977305719/",
+    "caption": "...when you use a convolutional neural network to detect whether the front door is open. But hey, it's fun and very instructive.",
+    "date": "2019-04-22",
+    "internal_note": ""
+  },
+  "namegenerator": {
+    "title": "AI generated names",
+    "image": "/static/images/namegenerator.jpg",
+    "url": "https://ai-generated-names.muehlemann-popp.ch",
+    "caption": "I trained a neural network with names of startups, swiss villages and girls. Now it is able to come up with its own fantasy names.",
+    "date": "2019-02-02"
+  },
+  "dst": {
+    "title": "Does Daylight Savings Time save your daylight?",
+    "image": "https://daylight-savings-time.muehlemann.com/og-image.png",
+    "url": "https://daylight-savings-time.muehlemann.com/",
+    "caption": "With this app you can check whether daylight savings time makes sense for you. It calculates how many hours of sunlight you get during your usual work hours based on your location.",
+    "date": "2018-10-21"
+  },
+  "aegeriseelauf": {
+    "title": "Visualize race result",
+    "image": "/static/images/aegeriseelauf.jpg",
+    "url": "https://oceanman2018.muehlemann.com?bib=135",
+    "caption": "I wanted to learn about <a href='https://d3js.org'>D3.js</a> so I scraped the results of a race I participated in and visualized it in a dot graph.",
+    "date": "2018-06-23"
+  },
+  "beetles": {
+    "title": "A neural network in your browser",
+    "url": "https://xn--mhlemann-65a.ch/reinforcejs/beetles/",
+    "video": "/static/images/beetles",
+    "caption": "This time I wanted to learn about reinforcement learning. A method where an agent learns the desired behavior just by me giving him rewards. As usual for projects done during family time I put the demo in a child compatible dress: Ladybugs on a racetrack.",
+    "date": "2018-02-24"
+  },
+  "logicpro": {
+    "title": "Rediscovering making music",
+    "url": "https://soundcloud.com/silvan-muehlemann/schtriit",
+    "image": "/static/images/logicpro.jpg",
+    "caption": "After roughtly 20 years of abstinence stepping back into the world of producing music (hobbyist style of course). I completely forgot how great it is to be able to create *exactly* the sound I love! ",
+    "date": "2018-04-15"
+  },
+   "commute": {
+    "title": "Where should you live?",
+    "url": "http://commute.muehlemann-popp.ch",
+    "image": "/static/images/commute.jpg",
+    "caption": "A year old project, finally published: This tool helps you find the location for your place of residence. It shows you your commute time two your workplace for an area on the map.",
+    "date": "2018-01-14"
+  },
+  "christmassong": {
+    "title": "The family's first music project",
+    "url": "https://soundcloud.com/silvan-muehlemann/orell-und-gwendolyn-weihnachten-2017/s-sftBa",
+    "image": "/static/images/christmassong.jpg",
+    "caption": "A not very techie project: My first music project with my kids. I wrote a simple song which could be played by my daughter who started playing bassoon music 4 months ago.",
+    "date": "2017-12-26"
+  },
+  "goetterstammbaum": {
+    "title": "Götterstammbaum",
+    "url": "http://xn--gtterstammbaum-vpb.xn--mhlemann-65a.ch/",
+    "image": "/static/images/goetterstammbaum.png",
+    "caption": "Interactive graph showing 170 greek gods. Assembled together with my son, as after reading <a href='https://en.wikipedia.org/wiki/Percy_Jackson_%26_the_Olympians'>Percy Jackson</a> he's fascinated by the greek gods.",
+    "date": "2017-11-13",
+    "github": "https://github.com/silvanm/goetterstammbaum"
+  },
+  "doorbell": {
+    "title": "Multisound-Doorbell",
+    "url": "https://doorbell.muehlemann-popp.ch/static/demo.html",
+    "image": "/static/images/doorbell.jpg",
+    "caption": "Play with our web based multi-ringtone doorbell we have installed for our <a href='https://www.facebook.com/Co-Work-Limmatquai-221743945011289/'>coworking-space</a> on this website.",
+    "date": "2017-10-16"
+  },
+  "meetingroomdisplay": {
+    "title": "Meetingroom Display",
+    "image": "/static/images/Meetingroom-Display.gif",
+    "caption": "The 3 meetingrooms in our office display their current availability via old iPhone 4 connected to a Google Calendar.",
+    "date": "2017-08-10"
+  },
+  "bronzehouse": {
+    "title": "3D print of our house",
+    "url": "https://www.facebook.com/silvan.muehlemann/posts/10155672214080719",
+    "image": "/static/images/bronzehouse.jpg",
+    "caption": "For my wife's birthday I created a 3D printed bronze model of our house (she designed btw).",
+    "date": "2017-08-04"
+  },
+  "presencedetector": {
+    "title": "Bathroom occupancy detector",
+    "url": "https://www.facebook.com/silvan.muehlemann/videos/10155167313840719/",
+    "image": "/static/images/presencedetector.jpg",
+    "caption": "Device for the Mühlemann&Popp AG/Eveni.to office. Tells us whether the bathroom is occupied or not (Like in the Swiss trains). Saves us unnecessary walks to the bathroom.",
+    "date": "2017-03-11"
+  },
+  "highwaysim": {
+    "title": "Highway Simulator",
+    "url": "https://mühlemann.ch/highwaysim",
+    "image": "/static/images/highwaysim.gif",
+    "caption": "This little app is a simple simulator of cars on a highway. Each car has a small AI engine. Play with the parameters or stop any car by touching it.",
+    "date": "2016-10-08",
+    "github": "https://github.com/silvanm/highwaysim"
+  },
+  "lasertiming": {
+    "title": "Laser Timing",
+    "url": "https://www.facebook.com/silvan.muehlemann/posts/10154588213655719",
+    "image": "/static/images/lasertiming.jpg",
+    "caption": "My kids love to make running competitions in the front of the house. Daddy loves to build gadgets. So I built a laser-controlled timing device. You hit the start button. The kids run. Every time they interrupt the beam the Arduino records the current time.",
+    "date": "2016-09-19"
+  },
+  "kitchendisplay": {
+    "title": "Kitchendisplay",
+    "rawhtml": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//aYoNVOT8XoQ' frameborder='0' allowfullscreen></iframe></div>",
+    "caption": "Second life for my old Smartphone: An information display in our kitchen showing tons of informations like my my current location, air quality, nice instagram pictures etc.",
+    "date": "2016-01-19"
+  },
+  "emailstat": {
+    "title": "26'206 Mails on one graph",
+    "url": "https://www.facebook.com/photo.php?fbid=10153819024815719&set=a.201343665718.161208.576250718&type=3&theater",
+    "image": "/static/images/emailstat.jpg",
+    "caption": "All the emails sent by me during the past 5 years shown in one graph. Each represented by a dot. The color of the dot represents the domain name.",
+    "date": "2015-11-16",
+    "github": "https://github.com/silvanm/d3js-mailindex"
+  },
+  "sensio": {
+    "title": "An Sensio clone",
+    "rawhtml": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/Z3zTZwHtBqc' frameborder='0' allowfullscreen></iframe></div>",
+    "caption": "Vacations + 5 kids in the house + geek dad + ATMega328P = A self made Sensio clone",
+    "date": "2015-10-16"
+  },
+  "wateralarm": {
+    "title": "Prevent a basement flood",
+    "url": "https://www.facebook.com/silvan.muehlemann/posts/10153561435555719",
+    "image": "/static/images/wateralarm.png",
+    "caption": "Ready for the next thunderstorm: I finished my hardware hack (Well, the prototype). An Arduino based water detector which notifies me as soon as the water level in the shaft next to our house is about to flood our basement (happened before).",
+    "date": "2015-07-19"
+  },
+  "penguins": {
+    "title": "Solve the penguin puzzle",
+    "url": "https://xn--mhlemann-65a.ch/penguins/",
+    "image": "/static/images/penguins.jpg",
+    "caption": "An attempt to show my kids how a computer can solve their puzzle (and a fun coding task for dad). They actual problem solving takes about half a second to try 1297 combinations. ",
+    "date": "2015-02-18",
+    "github": "https://github.com/silvanm/penguins"
+  },
+  "aboutme-v1": {
+    "title": "About me, V1",
+    "url": "/v1/",
+    "image": "/static/images/aboutme-v1.jpg",
+    "caption": "This is the predecessor of the page you're looking at. It shows an image taken from the bridge in front of our office.",
+    "date": "2015-02-18"
+  },
+  "blog": {
+    "title": "My (old) blog",
+    "url": "https://blog.xn--mhlemann-65a.ch/2008/07/20/ten-methods-to-obfuscate-e-mail-addresses-compared/",
+    "caption": "In the years 2006 to 2010 everyone had to have a blog. So I had one too. And one article was particularly popular. That's where I compared 9 different email obfuscation methods. That article was featured on Reddit and get still hits now.",
+    "date": "2008-01-10"
+  },
+  "bikeamp": {
+    "title": "A bicycle amp",
+    "url": "https://www.facebook.com/photo.php?fbid=10155736036065719&set=a.201343665718.161208.576250718&type=3&theater",
+    "image": "/static/images/bikeamp.jpg",
+    "caption": "This vacation I built a amplifier with speakers to attach to my bike. So everyone on the street can enjoy when I play <em>Pump up the Jam</em>, <em>Ride on time</em> or <em>Back to life</em>. I will be the coolest guy at school 😉",
+    "date": "1989-02-18"
+  }
+}
+
+
