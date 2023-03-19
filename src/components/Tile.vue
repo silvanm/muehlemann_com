@@ -1,25 +1,28 @@
 <template>
   <div class="card-holder">
     <div
-      class="card"
-      v-bind:class="{ isClickable: project.url, hidden: hidden }"
-      v-on:click="openUrl"
+        class="card"
+        v-bind:class="{ isClickable: project.url, hidden: hidden }"
+        v-on:click="openUrl"
     >
       <div v-if="project.lightbox">
         <lightbox
-          :thumbnail="project.image"
-          :images="[project.image]"
+            :thumbnail="project.image"
+            :images="[project.image]"
         ></lightbox>
       </div>
       <div v-else>
         <div v-if="project.video">
-          <LazyVideoAsGIF :sources="[project.video + '.webm', project.video + '.mp4']" />
+          <LazyVideoAsGIF :sources="[project.video + '.webm', project.video + '.mp4']"/>
+        </div>
+        <div v-else-if="project.youtube_url">
+          <LazyYoutube :src="project.youtube_url" />
         </div>
         <div v-else>
           <img
-            class="card-img-top"
-            v-lazy="project.image"
-            v-if="project.image"
+              class="card-img-top"
+              v-lazy="project.image"
+              v-if="project.image"
           />
         </div>
       </div>
@@ -28,26 +31,27 @@
         <h4 class="card-title" v-if="project.title">{{ project.title }}</h4>
         <div class="card-text">
           <p>
-            <span v-html="project.caption"  style="margin-right: 5px"> </span>
+            <span v-html="project.caption" style="margin-right: 5px"> </span>
             <a :href="project.url" v-if="project.url">more</a>
           </p>
           <div class="text-muted" v-if="project.date">
             <time :datetime="project.date">{{
-              project.date | moment("from", "now")
-            }}</time>
+                project.date | moment("from", "now")
+              }}
+            </time>
             <div class="vcs-icon" v-if="project.bitbucket">
               <a :href="project.bitbucket" title="Bitbucket">
                 <img
-                  class="icon delay-1"
-                  src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/bitbucket.svg"
+                    class="icon delay-1"
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/bitbucket.svg"
                 />
               </a>
             </div>
             <div class="vcs-icon" v-if="project.github">
               <a :href="project.github" title="Github">
                 <img
-                  class="icon delay-1"
-                  src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg"
+                    class="icon delay-1"
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg"
                 />
               </a>
             </div>
@@ -59,6 +63,7 @@
 </template>
 
 <script>
+
 export default {
   name: "Tile",
   props: {

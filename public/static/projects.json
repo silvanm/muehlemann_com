@@ -2,9 +2,16 @@
   "intro": {
     "caption": "<a href='https://www.facebook.com/silvan.muehlemann'><img src='/static/images/avatar.png' style='float:left;width:75px;shape-outside: circle();margin: 4px 24px 0 5px;'></a> Learning about new technologies is important for me and for my job as CTO of <a href='http://www.muehlemann-popp.ch'>Mühlemann & Popp</a>. So one of my favourite activities (besides playing <a href='https://www.facebook.com/photo.php?fbid=10154925694480719&set=pb.576250718.-2207520000.1512160695.&type=3&theater'>strategy games</a> with my kids and making <a href='https://www.strava.com/activities/1231186898'>long open water swims</a>) is to complete small tech projects. Even better if they are useful."
   },
+  "a-capella-song": {
+    "title": "From a capella to a full song",
+    "image": "/static/images/jenna.webp",
+    "url": "https://soundcloud.com/silvan-muehlemann/make-it-right-feat-jenna",
+    "caption": "I took a public-domain acapella version of the song \"Make it right\" by british song writer and vocalist Jenn and added a full instrumental track. Thanks for making that possible, Jenna.",
+    "date": "2023-03-19"
+  },
   "sunday-afternoon": {
     "title": "Diving into 3D modelling",
-    "image": "/static/images/sunday-afternoon.jpg",
+    "image": "/static/images/sunday-afternoon.webp",
     "url": "https://www.artstation.com/artwork/KO4w2W",
     "caption": "An unspectacular cell phone picture of our dining table on a Sunday afternoon? - No. It is a computer generated image. Created in about 10 hours of work using Blender 3D software. My new geek hobby. It combines my interests graphics, physics, art, (no-code) programming.... and in this case Cola Zero. ",
     "date": "2022-04-03"
@@ -173,7 +180,7 @@
   },
   "kitchendisplay": {
     "title": "Kitchendisplay",
-    "rawhtml": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//aYoNVOT8XoQ' frameborder='0' allowfullscreen></iframe></div>",
+    "youtube_url" : "aYoNVOT8XoQ",
     "caption": "Second life for my old Smartphone: An information display in our kitchen showing tons of informations like my my current location, air quality, nice instagram pictures etc.",
     "date": "2016-01-19"
   },
@@ -187,7 +194,7 @@
   },
   "sensio": {
     "title": "An Sensio clone",
-    "rawhtml": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/Z3zTZwHtBqc' frameborder='0' allowfullscreen></iframe></div>",
+    "youtube_url": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/Z3zTZwHtBqc' frameborder='0' allowfullscreen></iframe></div>",
     "caption": "Vacations + 5 kids in the house + geek dad + ATMega328P = A self made Sensio clone",
     "date": "2015-10-16"
   },

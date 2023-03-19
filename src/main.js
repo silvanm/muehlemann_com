@@ -7,6 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import VueLazyload from 'vue-lazyload'
 import Lightbox from 'vue-pure-lightbox'
 import VueLazyLoadVideo from 'vue-lazyload-video'
+import LazyYoutube from "vue-lazytube";
+
 
 Vue.config.productionTip = false
 
@@ -17,6 +19,8 @@ new Vue({
   render: h => h(App),
 }).$mount('#app')
 
+
+Vue.use(LazyYoutube);
 Vue.use(VueMoment)
 Vue.use(VueLazyload)
 Vue.use(Lightbox)
