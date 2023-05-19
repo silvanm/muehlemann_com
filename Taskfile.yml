@@ -1,0 +1,13 @@
+version: '3'
+
+#env:
+
+tasks:
+  build:
+    desc: Build the script
+    cmds:
+      - yarn run build
+  deploy:
+    desc: Upload to prod
+    cmds:
+      - rsync -av dist/* shared-vm.muehlemann-popp.ch:/home/muehlemann_prod/www/

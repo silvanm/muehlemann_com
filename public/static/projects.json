@@ -1,6 +1,13 @@
 {
   "intro": {
-    "caption": "<a href='https://www.facebook.com/silvan.muehlemann'><img src='/static/images/avatar.png' style='float:left;width:75px;shape-outside: circle();margin: 4px 24px 0 5px;'></a> Learning about new technologies is important for me and for my job as CTO of <a href='http://www.muehlemann-popp.ch'>Mühlemann & Popp</a>. So one of my favourite activities (besides playing <a href='https://www.facebook.com/photo.php?fbid=10154925694480719&set=pb.576250718.-2207520000.1512160695.&type=3&theater'>strategy games</a> with my kids and making <a href='https://www.strava.com/activities/1231186898'>long open water swims</a>) is to complete small tech projects. Even better if they are useful."
+    "caption": "<a href='https://www.facebook.com/silvan.muehlemann'><img src='/static/images/avatar.webp' style='float:left;width:90px;object-fit: cover;shape-outside:circle();border-radius:50%;  height: 90px;margin: 4px 14px 0 5px;'></a> Learning about new technologies is important for me and for my job as CTO of <a href='http://www.muehlemann-popp.ch'>Mühlemann & Popp</a>. So one of my favourite activities (besides playing <a href='https://www.facebook.com/photo.php?fbid=10154925694480719&set=pb.576250718.-2207520000.1512160695.&type=3&theater'>strategy games</a> with my kids and making <a href='https://www.strava.com/activities/1231186898'>long open water swims</a>) is to complete small tech projects. Even better if they are useful."
+  },
+  "rate-my-english": {
+    "title": "ChatGPT rates your English skills",
+    "image": "/static/images/rate-my-english.png",
+    "url": "https://rate-my-english.muehlemann-popp.ch",
+    "caption": "You, want to know your English level? Then try this easter-holiday project of me and my company's designer Alex Potapenko: <br>It records your spoken English, analyzes it, and provides you with a rating. It will even (try) to improve your speech and make you sound like a native English speaker...<br>A way to explore the possibilities of Whisper AI and ChatGPT4.",
+    "date": "2023-04-12"
   },
   "a-capella-song": {
     "title": "From a capella to a full song",
@@ -102,7 +109,7 @@
   },
   "beetles": {
     "title": "A neural network in your browser",
-    "url": "https://xn--mhlemann-65a.ch/reinforcejs/beetles/",
+    "url": "https://muehlemann.com/reinforcejs/beetles/",
     "video": "/static/images/beetles",
     "caption": "This time I wanted to learn about reinforcement learning. A method where an agent learns the desired behavior just by me giving him rewards. As usual for projects done during family time I put the demo in a child compatible dress: Ladybugs on a racetrack.",
     "date": "2018-02-24"
@@ -130,7 +137,7 @@
   },
   "goetterstammbaum": {
     "title": "Götterstammbaum",
-    "url": "http://xn--gtterstammbaum-vpb.xn--mhlemann-65a.ch/",
+    "url": "http://xn--gtterstammbaum-vpb.muehlemann.com/",
     "image": "/static/images/goetterstammbaum.png",
     "caption": "Interactive graph showing 170 greek gods. Assembled together with my son, as after reading <a href='https://en.wikipedia.org/wiki/Percy_Jackson_%26_the_Olympians'>Percy Jackson</a> he's fascinated by the greek gods.",
     "date": "2017-11-13",
@@ -207,7 +214,7 @@
   },
   "penguins": {
     "title": "Solve the penguin puzzle",
-    "url": "https://xn--mhlemann-65a.ch/penguins/",
+    "url": "https://muehlemann.com/penguins/",
     "image": "/static/images/penguins.jpg",
     "caption": "An attempt to show my kids how a computer can solve their puzzle (and a fun coding task for dad). They actual problem solving takes about half a second to try 1297 combinations. ",
     "date": "2015-02-18",
@@ -222,7 +229,7 @@
   },
   "blog": {
     "title": "My (old) blog",
-    "url": "https://blog.xn--mhlemann-65a.ch/2008/07/20/ten-methods-to-obfuscate-e-mail-addresses-compared/",
+    "url": "https://blog.muehlemann.com/2008/07/20/ten-methods-to-obfuscate-e-mail-addresses-compared/",
     "caption": "In the years 2006 to 2010 everyone had to have a blog. So I had one too. And one article was particularly popular. That's where I compared 9 different email obfuscation methods. That article was featured on Reddit and get still hits now.",
     "date": "2008-01-10"
   },

@@ -45,7 +45,7 @@
                 class="icon delay-5"
                 src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/soundcloud.svg"
             /></a>
-            <a title="Github" href="https://soundcloud.com/silvan-muehlemann"
+            <a title="Github" href="https://github.com/silvanm/"
               ><img
                 class="icon delay-6"
                 src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg"

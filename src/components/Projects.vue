@@ -1,13 +1,13 @@
 <template>
-  <div id="projects">
-    <div id="columns">
-      <tile
-        v-for="project in projects"
-        :key="project.url"
-        :project="project"
-      ></tile>
+    <div id="projects">
+        <div id="columns">
+            <tile
+                    v-for="project in projects"
+                    :key="project.url"
+                    :project="project"
+            ></tile>
+        </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -25,8 +25,8 @@ export default {
     };
   },
   methods: {
-    fadeTiles: function() {
-      this.$children.forEach(function(elem, ix) {
+    fadeTiles: function () {
+      this.$children.forEach(function (elem, ix) {
         window.setTimeout(() => {
           elem.show();
         }, ix * 50);
@@ -55,31 +55,31 @@ export default {
 }
 
 @media screen and (max-width: 500px) {
-  #columns {
-    margin: 10px auto;
-  }
+    #columns {
+        margin: 10px auto;
+    }
 }
 
 div#columns small {
-  font-size: 1rem;
-  float: right;
-  text-transform: uppercase;
-  color: #aaa;
+    font-size: 1rem;
+    float: right;
+    text-transform: uppercase;
+    color: #aaa;
 }
 
 div#columns small a {
-  color: #666;
-  text-decoration: none;
-  transition: 0.4s color;
+    color: #666;
+    text-decoration: none;
+    transition: 0.4s color;
 }
 
 @media screen and (max-width: 750px) {
-  #columns {
-    column-gap: 0px;
-  }
+    #columns {
+        column-gap: 0px;
+    }
 
-  #columns figure {
-    width: 100%;
-  }
+    #columns figure {
+        width: 100%;
+    }
 }
 </style>
