@@ -2,6 +2,29 @@
   "intro": {
     "caption": "<a href='https://www.facebook.com/silvan.muehlemann'><img src='/static/images/avatar.webp' style='float:left;width:90px;object-fit: cover;shape-outside:circle();border-radius:50%;  height: 90px;margin: 4px 14px 0 5px;'></a> Learning about new technologies is important for me and for my job as CTO of <a href='http://www.muehlemann-popp.ch'>Mühlemann & Popp</a>. So one of my favourite activities (besides playing <a href='https://www.facebook.com/photo.php?fbid=10154925694480719&set=pb.576250718.-2207520000.1512160695.&type=3&theater'>strategy games</a> with my kids and making <a href='https://www.strava.com/activities/1231186898'>long open water swims</a>) is to complete small tech projects. Even better if they are useful."
   },
+  "byybyecocacola": {
+    "title": "Bye bye Coca Cola",
+    "image": "/static/images/byebye-cocacola.png",
+    "url": "https://byebyecoke.vercel.app/",
+    "caption": "To help me to get out of my Coke Zero addiction, I build an app that motivates me to stay away from it.",
+    "date": "2024-01-29",
+    "github": "https://github.com/silvanm/byebyecoke"
+  },
+  "vocabsai": {
+    "title": "AI-Driven Vocabulary Trainer",
+    "youtube_url" : "lHCp74S0rmA",
+    "url": "https://vocabs.ai",
+    "caption": "A blend of modern AI for an enhanced language learning experience. Dived into WhisperAI for speech-to-text, Elevenlabs for text-to-speech, DALL-E 3 for cute images, and, finally, GPT-4 Turbo for crafting and assessing questions.",
+    "date": "2023-12-10"
+  },
+  "programmatic-tree": {
+    "title": "Generative Art",
+    "video": "/static/images/programmatic-art",
+    "url": "https://m-p-public.gitlab.io/poc/myzel/",
+    "caption": "Play with parameters to generate trees, bushes and city maps. An experiment for our corporate website.",
+    "date": "2023-06-26",
+    "github": "https://gitlab.com/m-p-public/poc/myzel"
+  },
   "rate-my-english": {
     "title": "ChatGPT rates your English skills",
     "image": "/static/images/rate-my-english.png",
@@ -137,7 +160,7 @@
   },
   "goetterstammbaum": {
     "title": "Götterstammbaum",
-    "url": "http://xn--gtterstammbaum-vpb.muehlemann.com/",
+    "url": "https://xn--gtterstammbaum-vpb.xn--mhlemann-65a.ch/",
     "image": "/static/images/goetterstammbaum.png",
     "caption": "Interactive graph showing 170 greek gods. Assembled together with my son, as after reading <a href='https://en.wikipedia.org/wiki/Percy_Jackson_%26_the_Olympians'>Percy Jackson</a> he's fascinated by the greek gods.",
     "date": "2017-11-13",
@@ -172,7 +195,7 @@
   },
   "highwaysim": {
     "title": "Highway Simulator",
-    "url": "https://mühlemann.ch/highwaysim",
+    "url": "https://muehlemann.com/highwaysim",
     "image": "/static/images/highwaysim.gif",
     "caption": "This little app is a simple simulator of cars on a highway. Each car has a small AI engine. Play with the parameters or stop any car by touching it.",
     "date": "2016-10-08",

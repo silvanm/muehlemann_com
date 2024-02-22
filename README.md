@@ -37,4 +37,6 @@ Convert to webm:
 
     ffmpeg -i greifenseeschwimmen.mp4  -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2"  greifenseeschwimmen.webm
 
+Note: You need both mp4 and webm for cross browser support.
+
 For images, use https://processing.compress-or-die.com/webp-process
