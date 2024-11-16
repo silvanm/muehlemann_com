@@ -2,8 +2,14 @@
   "intro": {
     "caption": "<a href='https://www.facebook.com/silvan.muehlemann'><img src='/static/images/avatar.webp' style='float:left;width:90px;object-fit: cover;shape-outside:circle();border-radius:50%;  height: 90px;margin: 4px 14px 0 5px;'></a> Learning about new technologies is important for me and for my job as CTO of <a href='http://www.muehlemann-popp.ch'>Mühlemann & Popp</a>. So one of my favourite activities (besides playing <a href='https://www.facebook.com/photo.php?fbid=10154925694480719&set=pb.576250718.-2207520000.1512160695.&type=3&theater'>strategy games</a> with my kids and making <a href='https://www.strava.com/activities/1231186898'>long open water swims</a>) is to complete small tech projects. Even better if they are useful."
   },
+  "videoediting": {
+    "title": "Video Post Production",
+    "youtube_url" : "USxlhbNi_AQ",
+    "caption": "My father spent days editing Super-8 films with glue and scissors. For me, it’s much easier: I use DaVinci Resolve.",
+    "date": "2024-11-16"
+  },
   "byybyecocacola": {
-    "title": "Bye bye Coca Cola",
+    "title": "Bye bye Coca-Cola",
     "image": "/static/images/byebye-cocacola.png",
     "url": "https://byebyecoke.vercel.app/",
     "caption": "To help me to get out of my Coke Zero addiction, I build an app that motivates me to stay away from it.",

@@ -18,6 +18,11 @@ yarn build
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+## Build
+
+To build, you need to set the following env var:
+
+    set -x NODE_OPTIONS --openssl-legacy-provider 
 
 ## Note to myself
 

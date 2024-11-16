@@ -5,6 +5,8 @@ version: '3'
 tasks:
   build:
     desc: Build the script
+    env:
+      NODE_OPTIONS: --openssl-legacy-provider
     cmds:
       - yarn run build
   deploy:
